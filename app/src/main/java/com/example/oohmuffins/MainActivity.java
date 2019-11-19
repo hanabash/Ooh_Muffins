@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         muffin_collection.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, displayMuffinCollection.class);
+                Intent intent = new Intent(MainActivity.this, ShoppingCart.class);
                 startActivity(intent);
             }
         });
