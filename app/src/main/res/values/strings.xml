@@ -1,9 +1,6 @@
 <resources>
     <string name="app_name">Ooh Muffins</string>
-    <string name="button_collection">Weekly Muffins</string>
+    <string name="button_weekly_muffins">Weekly Muffins</string>
     <string name="button_inspiration">Inspiration behind the Name</string>
     <string name="name">Ooh, Muffins!</string>
-    <string name="image_button">Strawberry Cheesecake Muffin</string>
-    <string name="image_button_two">Birthday Pop Muffin</string>
-    <string name="image_button_three">Mocha Muffin</string>
 </resources>

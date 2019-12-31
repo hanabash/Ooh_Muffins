@@ -14,9 +14,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button muffin_collection = (Button) findViewById(R.id.button_collection);
+        Button weekly_muffins = (Button) findViewById(R.id.button_weekly_muffins);
 
-        muffin_collection.setOnClickListener(new View.OnClickListener() {
+        weekly_muffins.setOnClickListener(new View.OnClickListener() {
+            @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, displayMuffinCollection.class);
                 startActivity(intent);

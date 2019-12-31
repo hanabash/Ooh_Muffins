@@ -30,12 +30,12 @@
         app:layout_constraintVertical_bias="0.407" />
 
     <Button
-        android:id="@+id/button_collection"
+        android:id="@+id/button_weekly_muffins"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:background="#B294EE"
         android:gravity="center_horizontal|center_vertical"
-        android:text="@string/button_collection"
+        android:text="@string/button_weekly_muffins"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
